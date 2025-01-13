@@ -12,3 +12,4 @@ E:\CSharp-2025\Practice\Practice\obj\Debug\net8.0\refint\Practice.dll
 E:\CSharp-2025\Practice\Practice\obj\Debug\net8.0\Practice.pdb
 E:\CSharp-2025\Practice\Practice\obj\Debug\net8.0\Practice.genruntimeconfig.cache
 E:\CSharp-2025\Practice\Practice\obj\Debug\net8.0\ref\Practice.dll
+E:\CSharp-2025\Practice\Practice\obj\Debug\net8.0\Practice.sourcelink.json

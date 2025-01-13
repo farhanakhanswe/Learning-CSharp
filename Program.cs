@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Practice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            printText();
+        }
+
+        static void printText()
+        {
+            Console.WriteLine("Printing some Text!");
+        }
+    }
+
+}
