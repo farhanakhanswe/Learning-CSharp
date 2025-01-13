@@ -40,7 +40,8 @@ namespace Practice
         {
             /* 
                This must be done manually. 
-               Explicit Casting converts a larger type to a smaller type
+               Explicit Casting converts a larger type to a smaller type.
+               double -> float -> long -> int -> char
             */
 
             double myDouble = 7.5;
