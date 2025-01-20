@@ -6,7 +6,7 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            typeConversionMethods();
+            getIntUserInput();
             Console.ReadLine();
         }
 
@@ -81,6 +81,20 @@ namespace Practice
             Console.WriteLine(Convert.ToString(myBool)); // convert bool to string
             Console.Write(Convert.ToString(myBool).GetType());
 
+        }
+
+        static void getStringUserInput()
+        {
+            Console.WriteLine("Enter username:");
+            string userName = Console.ReadLine();
+            Console.WriteLine("Username is: " + userName);
+        }
+
+        static void getIntUserInput()
+        {
+            Console.WriteLine("Enter a number:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Number is: " + age);
         }
     }
 
