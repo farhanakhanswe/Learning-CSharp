@@ -6,7 +6,7 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            getIntUserInput();
+            stringInterpolation();
             Console.ReadLine();
         }
 
@@ -95,6 +95,14 @@ namespace Practice
             Console.WriteLine("Enter a number:");
             int age = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Number is: " + age);
+        }
+
+        static void stringInterpolation()
+        {
+            string text = "Hello World!";
+            int date = 2;
+            string line = $"{ text } Number is { date} !"; // Use $ at the beginning to indicate an interpolated string
+            Console.WriteLine(line);
         }
     }
 
