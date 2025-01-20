@@ -402,3 +402,6 @@ FodyWeavers.xsd
 # Build results
 [Bb]in/
 [Oo]bj/
+
+# Visual Studio cache/options directory
+.vs/
